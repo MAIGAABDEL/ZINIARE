@@ -1,0 +1,10 @@
+Vous pouvez héberger un site web gratuitement sur GitHub Pages, une fonctionnalité de GitHub qui permet de publier des pages web directement à partir d'un dépôt GitHub
+. Voici les étapes principales :
+
+    Créer un dépôt GitHub : Rendez-vous sur GitHub et créez un nouveau dépôt public.
+
+    Ajouter les fichiers de votre site : Téléversez les fichiers HTML, CSS et JavaScript dans le dépôt.
+
+    Activer GitHub Pages : Allez dans les paramètres du dépôt, puis dans la section "Pages". Sélectionnez la branche contenant votre site.
+
+    Accéder à votre site : Une fois activé, votre site sera accessible à l'adresse https://votre-nom-utilisateur.github.io/nom-du-repo.

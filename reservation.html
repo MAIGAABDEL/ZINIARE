@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation d'Hôtel à ZINIARE</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+<main>
+        <h2>FORMULAIRE DE RESERVATION D'HÔTEL</h2>
+
+          <form method="post" action="traitement.php">
+          <fieldset>
+               <legend>Identification</legend>
+               <label for="nom">Quel est votre nom?</label>
+               <input type="text" name="nom" id="nom"/>
+               </br>
+                 <label for="prenom">Quel est votre prénom?</label>
+               <input type="text" name="prenom" id="prenom"/>
+               <br></br>
+                <label for="telephone">Quel est votre numéro</label>
+               <input type="tel" name="telephone" id="telephone"/>
+               </br>
+                <label for="email">Quel est votre e-mail?</label>
+               <input type="email" name="email" id="email"/>
+               </fieldset>
+               <br></br>
+
+                <fieldset>
+               <legend>Dates d'arrivée et de depart</legend>
+                <label for="arrivee">Date d'arrivée:</label>
+               <input type="date" name="arrivee" id="arrivee"/>
+               </br>
+               <label for="depart">Date de depart:</label>
+               <input type="date" name="depart" id="depart"/>
+               </fieldset>
+               <br></br>
+
+                <fieldset>
+                 <legend>Nombre de personne par chambre</legend>
+                <label for="nombre">Nombre de Personnes </label>
+               <input type="number" name="nombre" id="nombre"/>
+                </fieldset>
+                 <br></br>
+
+                    <fieldset>
+                    <legend>choix de chambre</legend>
+                    <p>
+                     quel type de chambre désirez vous ?</br>
+                    <input type="radio" name="chambre" value="double" id="double" />
+                    <label for="double">Chambre double</label>
+                    </br>
+                     <input type="radio" name="chambre" value="single" id="single" />
+                    <label for="single">Chambre single</label>
+                     </br>
+    <input type="radio" name="chambre" value="familiale" id="familiale" />
+                    <label for="familiale">Chambre familiale</label>
+                      </br>
+    <input type="radio" name="chambre" value="suite" id="suite" />
+                    <label for="suite">Chambre Les suites</label>
+                     </br>     
+                    </p>
+                    </fieldset>
+                     <br>
+
+                    
+
+                     <input type="submit" value="Reserver" />
+                     
+                                      
+
+           
+
+
+
+
+
+                
+
+
+
+
+
+
+          
+         </form>  
+    </main>
+</body>
+</html>   
